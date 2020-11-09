@@ -1,13 +1,22 @@
+Crear un repositorio con las siguientes preguntas y que un compañero las conteste:
+
 1. Además de Git, ¿que otros sistemas de control de versiones existen?
-
+Distribuidos: cada usuario tiene su propio repositorio. ...
+Centralizados: existe un repositorio centralizado de todo el código, del cual es responsable un único usuario (o conjunto de ellos).
 2. En Git, ¿para qué sirve el comando git config?
-
+Con la opción --system del comando git config , puedes leer y escribir de/a este archivo. ... Con la opción --global , git config lee y escribe en este archivo.
+Y por último, Git también puede considerar valores de configuración presentes en el archivo . git/config de cada repositorio que estés utilizando.
 3. En Git, ¿para qué sirve el comando git init?
-
+git init es un comando que se utiliza una sola vez durante la configuración inicial de un repositorio nuevo. 
+Al ejecutar este comando, se creará un nuevo subdirectorio . git en tu directorio de trabajo actual.
+También se creará una nueva rama maestra.
 4. En Git, ¿para qué sirve el comando git clone?
-
+git clone es una utilidad de línea de comandos de Git que se utiliza para fijar como objetivo un repositorio existente y clonarlo o copiar el repositorio objetivo.
 5. En Git, ¿para qué sirve el comando git status?
-
+El comando git status muestra el estado del directorio de trabajo y del área del entorno de ensayo. 
+Permite ver los cambios que se han preparado, los que no y los archivos en los que Git no va a realizar el seguimiento.
 6. En Git, ¿para qué sirve el comando git add?
-
+Esto permite construir series de instantáneas de los archivos creados o modificados en el proyecto antes de guardarlos en el historial del proyecto. 
+Cuando finalmente se quiere guardar y agrupar estos cambios, se guardan en el historial mediante commits.
 Contestar con el nombre de los integrantes del grupo
+Javier Bartolomé García
